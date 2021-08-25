@@ -1,0 +1,19 @@
+.Box {
+    transition: opacity 200ms ease-in-out, height 200ms ease-in-out;
+}
+
+#tree-tab:hover {
+    cursor: pointer;
+}
+
+.hubtree-main {
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+.hubtree-main a {
+    background-color: var(--color-bg-tertiary);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 0 5px;
+}
